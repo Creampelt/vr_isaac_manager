@@ -2,7 +2,7 @@
 
 # get script directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-HCRL_ISAACLAB_DIR="$( realpath "${SCRIPT_DIR}/../resources/IsaacLab/source/hcrl_isaaclab" )"
+HCRL_ISAACLAB_DIR="$( realpath "${SCRIPT_DIR}/../resources/IsaacLab/source/vr_isaaclab" )"
 OUTPUTS_DIR="${HCRL_ISAACLAB_DIR}/outputs"
 
 print_help() {
